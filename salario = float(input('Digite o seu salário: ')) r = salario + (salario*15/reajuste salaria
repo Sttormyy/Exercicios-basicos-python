@@ -1,0 +1,3 @@
+salario = float(input('Digite o seu salário: '))
+r = salario + (salario*15/100)
+print('Seu salário que era {}, com o reajuste ficou {}'.format(salario, r))
