@@ -1,0 +1,7 @@
+num = input('Digite um numero: ')
+n = str(num)
+print('Analisando o numero {}'.format(num))
+print('ele tem {} Unidades'.format(n[3]))
+print('{} Dezenas'.format(n[2]))
+print('{} Centenas'.format(n[1]))
+print('e {} Milhar'.format(n[0]))
