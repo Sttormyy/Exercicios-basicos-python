@@ -1,0 +1,10 @@
+from random import randint
+computador = randint(0, 5)
+print('==='*20)
+print('Irei pensar em um número de 0 a 5. Tente advinhar ;)')
+print('==='*20 )
+jogador = int(input('Chute um número entre 0 a 5: '))
+if jogador == computador:
+    print('Parabéns, você advinhou corretamente')
+else:
+    print('Que pena, o número que eu estava pensando era {}'.format(computador))
